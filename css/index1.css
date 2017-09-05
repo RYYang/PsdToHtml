@@ -1,0 +1,247 @@
+
+.index-banner{
+	background: #b3b3b3;
+	margin:0 auto;
+}
+
+.index-banner-bg{
+	height: 570px;
+	overflow: hidden;
+	
+}
+
+.index-banner-bg img{
+	position: absolute;
+	margin: 0 auto;
+	width: 1210px;
+	height: 600px;
+}
+
+.index-banner-text{
+	position: absolute;
+	top:300px;
+	left:50%;
+	margin-left:-288px;
+}
+
+.index-banner-text .text-logo{
+	width: 776px;
+	height: 117px;
+	background: url("../images/text-logo.png");
+}
+
+.index-banner-text .text-info{
+	margin-top: 17px;
+	text-align: center;
+	color: #fff;
+}
+.index-banner-text .text-info .line{
+	display: inline-block;
+	width: 40px;
+	border-top: 1px solid #fff;
+	vertical-align:middle;
+}
+
+.index-banner-text .text-info .span{
+	margin-right: 0 26px;
+}
+
+
+.index-menu{
+	border-top: 4px solid #f34949;
+	width: 1210px;
+	margin: 0 auto;
+}
+
+.index-menu .menu-tips {
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-left: -78px;
+	width: 156px;
+	height: 75px;
+	text-align: center;
+	line-height: 65px;
+	color: #fff;
+	background: #f34949;
+}
+
+.index-menu .menu-tips:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid #fff;
+}
+
+.index-menu .menu-list{
+	margin-top: 150px;
+	color:#555;
+	overflow: hidden;
+}
+.index-menu .menu-list ul{
+	width: 1210px;
+}
+.index-menu .menu-item{
+	float: left;
+	width: 495px;
+	margin-right: 110px;
+}
+
+.index-menu .menu-item .title, .index-menu .menu-item .line{
+	float: left;
+}
+
+.index-menu .menu-item .price{
+	float: right;
+}
+.index-menu .menu-item .title{
+	width: 230px;
+	font-size:16px;
+	color: #555555;
+	height: 94px;
+}
+.index-menu .menu-item .h4{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.index-menu .menu-item .comment{
+	margin-top: 4px;
+	color: #b7b7b7;
+	font-size: 12px;
+}
+.index-menu .menu-item .line{
+	margin-top: 9px;
+	width: 192px;
+	border-top: 1px solid #e3e1e1;
+}
+
+.index-menu .menu-more-btn{
+	margin: 0 auto;
+	margin-top: 85px;
+	width: 114px;
+	height: 34px;
+	padding-left: 16px;
+	border:1px solid #d7d5d5;
+ 	font-size: 14px;
+ 	line-height: 34px;
+ 	color:#b7b7b7;
+}
+.index-menu .menu-more-btn .line{
+	margin-left: 10px;
+}
+.index-menu .menu-more-btn .icon{
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+	background: url("../images/button-icon.gif");
+    margin-left: 12px;
+    margin-right: 11px;
+}
+
+
+.index-panel {
+    margin-top: 200px;
+}
+
+.index-panel-header h3 {
+    float: left;
+    margin-right: 10px;
+}
+
+.index-panel-header .line {
+    width: 200px;
+    border-top: 1px solid #dedede;
+    float: left;
+    margin-top: 10px;
+}
+
+.index-panel-header .button-group {
+    float: right;
+}
+
+.index-panel-header .button-group .button {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #dedede;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.index-panel-header .button-group .active {
+    background: #9d9d9d;
+}
+
+.index-panel-body {
+    margin-top: 75px;
+    overflow: hidden;
+}
+
+.index-panel-body ul {
+    width: 1160px;
+}
+
+
+.index-panel-body{
+    float: left;
+}
+.index-panel-body .food-item {
+    float: left;
+    margin-right: 60px;
+}
+
+.index-panel-body .food-item .name {
+    color: #bcbcbc;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.index-panel-body .food-item .name .price {
+    float: right;
+}
+
+.index-panel-body .star-bar {
+    margin-top: 10px;
+}
+
+.index-panel-body .star-bar .star {
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+    background-image: url("../images/star.jpg");
+    background-repeat: no-repeat;
+}
+
+.index-panel-body .star-bar .nostar {
+    background-position: 0 -12px;
+}
+
+
+
+.index-panel .index-pics {
+	margin-top: 200px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.index-panel .index-pics .pic-col-s {
+	float: left;
+    width: 353px;
+}
+
+.index-panel .index-pics .pic-col-m {
+	float: left;
+    width: 287px;
+}
+.index-panel .index-pics .pic-col-l {
+	float: left;
+    width: 460px;
+}
